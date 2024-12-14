@@ -10,5 +10,6 @@ cc_library(
         "sockcompat.c",
     ],
     hdrs = glob(["*.h"]) + ["dict.c"],
+    includes = ["."],
     visibility = ["//visibility:public"],
 )
